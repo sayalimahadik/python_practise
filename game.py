@@ -4,7 +4,8 @@ print("Enter the input of 1st player :")
 
 x1=str(input())
 
-print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+# print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+print("*** NO CHEATING\n\n"*40)
 
 print("Enter the input of 2nd player :")
 
