@@ -1,30 +1,13 @@
-x=["marathi","hindi","maths","chemistry","physics"]
-print(x)
-print("\n\n")
-y=len(x)
-print(y)
-print("\n\n")
-x.sort()
-print(x)
-print("\n\n")
-x.append("english")
-print(x)
-print("\n\n")
-x.extend(["biology","python"])
-print(x)
-print("\n\n")
-x.pop(2)
-print(x)
-print("\n\n")
-list(x)
-v=x.index("maths")
-print(v)
-print("\n\n")
-x.remove("english")
-print(x)
-print("\n\n")
-x.extend(["maths","maths"])
-print(x)
-t=x.count("maths")
-print(t)
-print("\n\n")
+
+def odd_add():
+	x=[1,2,3,4,5,6,7,8,9,10]
+	c=len(x)
+	t=0
+	for i in range(0,c):
+		if x[i]%2==0:
+			continue
+		else:
+			t=t+x[i]
+			print(t)
+
+odd_add()
