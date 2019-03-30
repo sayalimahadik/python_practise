@@ -1,7 +1,8 @@
-print("Enter your first name: ")
-a=input()
+print("Enter the input: ")
+x=input()
 
-def f_name():
-	print(f"my first name is {a}.")
+def last_element():
+	c=x[-1]
+	print(c)
 
-f_name()
+last_element()
